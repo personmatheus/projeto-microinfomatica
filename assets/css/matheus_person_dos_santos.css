@@ -1,0 +1,192 @@
+:root {
+    --primary-color: #7776B3;
+    --secondary-color: #9B86BD;
+    --bg-color: #5A639C;
+    --highlight-color: #E2BBE9;
+    --black: #000;
+    --white: #FFF;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+#logo2 {
+    width: 50px;
+  
+}
+
+.nav-link {
+    color: var(--white);
+
+}
+
+.nav-link:hover {
+    color: var(--highlight-color);
+
+
+}
+
+.active {
+    color: var(--highlight-color) !important;
+    font-weight: bold;
+
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+#slogan {
+    text-align: center;
+    width: 100%;
+    color: var(--white);
+}
+
+.carousel-item {
+    height: 15%;
+
+}
+
+#logo3 {
+    width: 100px;
+  
+}
+
+.footerlink {
+    color: var(--white);
+
+
+
+}
+
+#cortexto {
+
+    color: var(--white);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#alinhamento {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: var(--primary-color);
+}
+
+#direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+
+    background-color: var(--secondary-color);
+    
+}
+
+.btn:hover{
+background: var(--highlight-color);
+
+}
+
+#branco{
+
+    color: var(--white);
+    text-align: center;
+}
+
+#espacamento{
+
+padding-bottom: 20px;
+
+}
+
+.cards{
+display: flex;
+
+justify-content: center;
+
+flex-wrap: wrap;
+
+gap: 1rem;
+
+}
+
+.preco{
+font-size: 2rem;
+
+font-weight: bold;
+
+}
+
+#espacamento2{
+padding-bottom: 20px;
+
+
+
+}
+
+#matheus{
+
+width: 100%;
+
+}
+
+#contat{
+
+               
+}
+
+#contact {
+    padding: 1rem;
+  }
+  
+  #contact-form {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 20px;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  
+  #contact-form p {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+  }
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .cards{
+
+        justify-content: space-between;
+    
+    }
+    .flex-field {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+    
+      .flex-field > div {
+        width: 100%;
+      } 
+
+}
+
